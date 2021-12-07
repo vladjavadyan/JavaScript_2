@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    <div class="calculator">
+            <div class="tablo" id="tablo"></div>
+            <div class="calc-row">
+                <button class="clr" onclick="handleClear()">CLR</button>
+                <button class="on" onclick="handleOn()">ON</button>
+                <button class="off" onclick="handleOff()">OFF</button>
+                <button class="bt" onclick="handleBack()"><i class="fas fa-backspace"></i></button>
+            </div>
+            <div class="calc-row">
+                <button class="bt" onclick="handleKey(1)">1</button>
+                <button class="bt" onclick="handleKey(2)">2</button>
+                <button class="bt" onclick="handleKey(3)">3</button>
+                <button class="bt" onclick="handleKey('+')">+</button>
+            </div>
+            <div class="calc-row">
+                <button class="bt" onclick="handleKey(4)">4</button>
+                <button class="bt" onclick="handleKey(5)">5</button>
+                <button class="bt" onclick="handleKey(6)">6</button>
+                <button class="bt" onclick="handleKey('/')">/</button>
+            </div>
+            <div class="calc-row">
+                <button class="bt" onclick="handleKey(7)">7</button>
+                <button class="bt" onclick="handleKey(8)">8</button>
+                <button class="bt" onclick="handleKey(9)">9</button>
+                <button class="bt" onclick="handleKey('*')">x</button>
+            </div>
+            <div class="calc-row">
+                <button class="bt" onclick="handleKey(0)">0</button>
+                <button class="bt" onclick="handleKey('.')">.</button>
+                <button class="bt" onclick="calculate()">=</button>
+                <button class="bt" onclick="handleKey('-')">-</button>
+            </div>
+        <div>
+      
+         
+          
+            
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
